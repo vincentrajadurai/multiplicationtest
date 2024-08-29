@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+.score{
+    text-align: right;
+}
+
+form{
+    background-color: yellowgreen;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 15px;
+    border: 2px white dotted;   
+}
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    background-color: aqua ;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
